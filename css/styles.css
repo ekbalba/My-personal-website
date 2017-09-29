@@ -1,12 +1,12 @@
-@import url("https://fonts.googleapis.com/css?family=Nixie+One|Raleway");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:200|Montserrat:200");
 body {
   background-color: #ffffff;
   color: #000000;
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Work Sans', sans-serif;
 }
 
 .container {
-  max-width: 1200px;
+  max-width: 100%;
 }
 
 a {
@@ -19,18 +19,19 @@ a:visited, a:hover {
 }
 
 .nav-bar {
-  padding: 20px 200px;
+  padding: 30px 200px 0 200px;
+  font-size: 32px;
+  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
 }
 
 .nav-bar .brand {
   float: left;
-  font-family: 'Nixie One', cursive;
-  font-size: 48px;
 }
 
 .nav-bar .menu {
   float: right;
-  padding-top: 35px;
 }
 
 .nav-bar .menu li {
@@ -42,9 +43,12 @@ a:visited, a:hover {
   padding-left: 20px;
 }
 
-.leftIntro {
-  font-family: 'Nixie One', cursive;
-  font-size: 82px;
+.intro .left-intro {
+  font-size: 100px;
+}
+
+.intro .right-intro {
+  font-size: 28px;
 }
  
 
