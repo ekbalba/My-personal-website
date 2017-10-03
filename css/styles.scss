@@ -4,31 +4,37 @@ body {
     background-color: $white;
     color: $black;
     font-family: $montserrat;
+    height: 100%;
 }
 
 .container {
     max-width: 100%;
 }
 
-a,
+a {
+    text-decoration: none;
+    color: $white;
+}
+
 a:visited,
 a:hover {
-    text-decoration: none;
-    color: $black;
+    @extend a;
 }
 
 .nav-bar {
-    background: $white;
-    font-size: 32px;
+    background-color: #96bbbb;
+    font-family: $lora;
+    font-size: 1.6em;
     width: 100%;
     position: fixed;
+    z-index: 1;
     @include box-shadow($boxShadow);
     .brand {
-        padding: 30px 0 20px 200px;
+        padding: 15px 0 10px 200px;
         float: left;
     }
     .menu {
-        padding: 30px 200px 20px 0;
+        padding: 15px 200px 10px 0;
         float: right;
         li {
             float: left;
@@ -40,13 +46,27 @@ a:hover {
     }
 }
 
+.landing {
+    text-align: center;
+    height: 100vh;
+    h2 {
+        margin-top: 40vh;
+        font-size: 3.2em;
+    }
+}
+
 .intro {
-    margin-top: 200px;
+    margin-bottom: 10%;
     .left-intro {
-        font-family: $workSans;
-        font-size: 100px;
+        font-family: $lora;
+        font-size: 4.8em
+        img {
+            height: 769px;
+            width: 750px;
+        }
     }
     .right-intro {
-        font-size: 28px;
+        margin-top: 10vh;
+        font-size: 1.6em
     }
 }

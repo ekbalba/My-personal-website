@@ -1,38 +1,40 @@
-@import url("https://fonts.googleapis.com/css?family=Work+Sans:200|Montserrat:200");
+@import url("https://fonts.googleapis.com/css?family=Work+Sans:200|Montserrat:200|Lora|Raleway:200");
 body {
   background-color: #ffffff;
   color: #000000;
   font-family: "Montserrat", sans-serif;
+  height: 100%;
 }
 
 .container {
   max-width: 100%;
 }
 
-a,
-a:visited,
+a, a:visited,
 a:hover {
   text-decoration: none;
-  color: #000000;
+  color: #ffffff;
 }
 
 .nav-bar {
-  background: #ffffff;
-  font-size: 32px;
+  background-color: #96bbbb;
+  font-family: "Lora", serif;
+  font-size: 1.6em;
   width: 100%;
   position: fixed;
-  -webkit-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
-  -moz-box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
-  box-shadow: 0px 1px 5px 1px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+  -webkit-box-shadow: 0px 3px 9px 4px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: 0px 3px 9px 4px rgba(0, 0, 0, 0.18);
+  box-shadow: 0px 3px 9px 4px rgba(0, 0, 0, 0.18);
 }
 
 .nav-bar .brand {
-  padding: 30px 0 20px 200px;
+  padding: 15px 0 10px 200px;
   float: left;
 }
 
 .nav-bar .menu {
-  padding: 30px 200px 20px 0;
+  padding: 15px 200px 10px 0;
   float: right;
 }
 
@@ -45,17 +47,30 @@ a:hover {
   padding-left: 20px;
 }
 
+.landing {
+  text-align: center;
+  height: 100vh;
+}
+
+.landing h2 {
+  margin-top: 40vh;
+  font-size: 3.2em;
+}
+
 .intro {
-  margin-top: 200px;
+  margin-bottom: 10%;
 }
 
 .intro .left-intro {
-  font-family: "Work Sans", sans-serif;
-  font-size: 100px;
+  font-family: "Lora", serif;
+  font-size: 4.8em img;
+  font-size-height: 769px;
+  font-size-width: 750px;
 }
 
 .intro .right-intro {
-  font-size: 28px;
+  margin-top: 10vh;
+  font-size: 1.6em;
 }
  
 
