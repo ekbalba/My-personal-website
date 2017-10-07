@@ -38,12 +38,8 @@ a:hover {
     @extend a;
 }
 
-section:not(:first-of-type){
-    margin-top: 5%;
-    margin-bottom: 5%;
-}
-
 .nav-bar {
+    @include box-shadow($navShadow);
     background-color: $blue;
     font-family: $montserrat;
     font-size: .8em;
@@ -54,7 +50,6 @@ section:not(:first-of-type){
     position: fixed;
     width: 100%;
     z-index: 1;
-    @include box-shadow($navShadow);
     .brand {
         padding-left: 10%;
     }
@@ -79,10 +74,6 @@ section:not(:first-of-type){
         font-size: 4.2em;
         margin-top: 35%;
     }
-}
-
-#about {
-    padding-top: 10vh;
 }
 
 #my-photo {
@@ -120,6 +111,15 @@ a.orange-highlight:hover{
     border-bottom: 2px dotted $orange;
     padding-top: .1px;
     padding-bottom: .1px;
+}
+
+.border {
+    border-top: 8px solid rgba( 72,74,71, .08);
+    border-bottom: 4px solid rgba( 72,74,71, .08);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 3px;
+    padding-bottom: 4px;
 }
 
 .line-break {

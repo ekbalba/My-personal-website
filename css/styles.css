@@ -64,11 +64,6 @@ a:hover {
   text-decoration: none;
 }
 
-section:not(:first-of-type) {
-  margin-top: 5%;
-  margin-bottom: 5%;
-}
-
 .nav-bar {
   background-color: #009fb7;
   font-family: "Montserrat", sans-serif;
@@ -115,10 +110,6 @@ section:not(:first-of-type) {
   margin-top: 35%;
 }
 
-#about {
-  padding-top: 10vh;
-}
-
 #my-photo {
   display: block;
   margin: 0 auto 20% auto;
@@ -142,6 +133,15 @@ a.orange-highlight:hover {
   border-bottom: 2px dotted #DE6530;
   padding-top: .1px;
   padding-bottom: .1px;
+}
+
+.border {
+  border-top: 8px solid rgba(72, 74, 71, 0.08);
+  border-bottom: 4px solid rgba(72, 74, 71, 0.08);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 3px;
+  padding-bottom: 4px;
 }
 
 .line-break {
