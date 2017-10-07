@@ -22,57 +22,75 @@
 <body>
     <header>
         <nav class="row nav-bar">
-            <div class="brand"><a href="test.html">oh!</a></div>
-            <div class="menu">
+            <div class="brand u-pull-left"><a href="index">oh!</a></div>
+            <div class="menu u-pull-right">
                 <ul>
-                    <li><a href="about.html">ABOUT</a></li>
-                    <li><a href="resume.html">RESUME</a></li>
-                    <li><a href="contact.html">CONTACT</a></li>
+                    <li class="u-pull-left"><a href="#about">ABOUT</a></li>
+                    <li class="u-pull-left"><a href="resume.html">RESUME</a></li>
+                    <li class="u-pull-left"><a href="contact.html">CONTACT</a></li>
                 </ul>
             </div>
         </nav>
     </header>
     <div class="container">
-        <section class="row twelve columns landing">
-            <h2 class="landing-message">
-                ERROL KEVIN ALBA
+        <section class="row offset-by-two eight columns" id="landing">
+            <h2 class="fade-in-fwd" id="landing-my-name">
+                <span class="line-break">Hello,</span>
+                <span class="line-break">my name is Errol,</span>
+                <span class="line-break">a web developer.</span>
             </h2>
-            <p class="mini-message">
-                Mini message here.
-            </p>
         </section>
-        <section class="row twelve columns intro">
-            <div class="six columns left-intro">
-                <img src="../../images/my-photo.png" alt="">
+        <section class="row twelve columns" id="about">
+            <div class="six columns">
+                <img src="../../images/my-photo2.png" alt="Oops! There should be a handsome photo here." class="img-circle" id="my-photo">
             </div>
-            <div class="six columns right-intro">
+            <div class="six columns">
                 <h4>
-                    About
+                    About:
                 </h4>
                 <p>
-                    Hey, that's me! I am a twenty-something aspiring full-stack web developer with experience in <span>ASP.NET</span>,
-                    <span>SQL Server</span>, <span>HTML</span>, <span>CSS</span>, and <span>JavaScript</span>.
+                    Hey, that's me! I am a twenty-something aspiring web developer with experience in
+                    <span class="blue-highlight">ASP.NET</span>,
+                    <span class="blue-highlight">SQL Server</span>,
+                    <span class="blue-highlight">HTML</span>,
+                    <span class="blue-highlight">CSS</span>, and
+                    <span class="blue-highlight">JavaScript</span>.
                 </p>
                 <p>
-                    I am a Filipino, who is now enjoying the amazing weather in California. I have always been learning and discovering new things
+                    I am a Filipino, who is now enjoying the weather in California. I have always been learning and discovering new things
                     to improve my knowledge, face new challenges and do my best in every creation.
+                </p>
+                <p>
+                    If you want to know more about me, then please head over to my
+                    <a href="#" class="orange-highlight">resume</a>, from there you can check my qualifications, and education
+                    history.
                 </p>
             </div>
         </section>
         <section class="row twelve columns">
             <h4>
-                What I've been upto lately?
+                What I've been upto lately:
             </h4>
-            <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
-                magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-                consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
-                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."</p>
+            <ul>
+                <li>
+                    honing my developing skills thru <a href="https://www.pluralsight.com/" class="orange-highlight">Pluralsight</a> courses.
+                </li>
+                <li>
+                    doing freelance web development for clients.
+                </li>
+                <li>
+                    making a web application to help project managers manage their projects.
+                </li>
+                <li>
+                    learning how to use <a href="https://inkscape.org/en/" class="orange-highlight">Inkscape</a> for creating beautiful logos.
+                </li>
+            </ul>
         </section>
-        <section class="my-projects">
+        <!-- <section class="my-projects">
             <div class="row card card-effect">
 
             </div>
-        </section>
+        </section> -->
     </div>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
