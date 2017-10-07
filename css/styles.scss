@@ -67,13 +67,14 @@ a:hover {
     }
 }
 
-#landing {
+section:first-of-type {
     height: 100vh;
-    #landing-my-name {
-        text-align: left;
-        font-size: 4.2em;
-        margin-top: 35%;
-    }
+}
+    
+#landing-my-name {
+    text-align: left;
+    font-size: 4.2em;
+    margin-top: 35%;
 }
 
 #my-photo {
