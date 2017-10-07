@@ -67,14 +67,16 @@ a:hover {
     }
 }
 
-section:first-of-type {
+header  {
     height: 100vh;
 }
-    
-#landing-my-name {
-    text-align: left;
-    font-size: 4.2em;
-    margin-top: 35%;
+
+.header-content {
+    margin-top: 20%;
+    h2 {
+        text-align: left;
+        font-size: 4.2em;
+    }
 }
 
 #my-photo {
@@ -107,7 +109,8 @@ section:first-of-type {
     font-size: 1.2em;
 }
 
-a.orange-highlight:hover{
+a.orange-highlight:hover {
+    @extend .orange-highlight;
     border-top: 2px dotted $orange;
     border-bottom: 2px dotted $orange;
     padding-top: .1px;
@@ -115,8 +118,8 @@ a.orange-highlight:hover{
 }
 
 .border {
-    border-top: 8px solid rgba( 72,74,71, .08);
-    border-bottom: 4px solid rgba( 72,74,71, .08);
+    border-top: 8px solid rgba( 72, 74, 71, .08);
+    border-bottom: 4px solid rgba( 72, 74, 71, .08);
     margin-top: 5%;
     margin-bottom: 5%;
     padding-top: 3px;
@@ -151,4 +154,3 @@ a.orange-highlight:hover{
         padding-top: 5vh;
     }
 }
-

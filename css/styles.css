@@ -176,14 +176,17 @@ a:hover {
   color: #ffffff;
 }
 
-section:first-of-type {
+header {
   height: 100vh;
 }
 
-#landing-my-name {
+.header-content {
+  margin-top: 20%;
+}
+
+.header-content h2 {
   text-align: left;
   font-size: 4.2em;
-  margin-top: 35%;
 }
 
 #my-photo {
@@ -198,7 +201,8 @@ section:first-of-type {
   font-size: 1.2em;
 }
 
-.orange-highlight {
+.orange-highlight,
+a.orange-highlight:hover {
   color: #DE6530;
   font-size: 1.2em;
 }
