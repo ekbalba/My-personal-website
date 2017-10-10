@@ -190,14 +190,11 @@ header {
   font-size: 4.2em;
 }
 
-img {
-  max-height: 100%;
-  max-width: 100%;
-}
-
 #my-photo {
   display: block;
   margin: 0 auto 20% auto;
+  max-height: 80%;
+  max-width: 80%;
 }
 
 .blue-highlight {
@@ -234,20 +231,6 @@ a.orange-highlight:hover {
 
 .img-circle {
   border-radius: 50%;
-}
-
-.card {
-  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  transition: 0.3s;
-  background: #fff;
-  border-radius: 2px;
-  display: inline-block;
-  margin: 1rem;
-  width: 30%;
-}
-
-.card-container {
-  padding: 2px 16px;
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
