@@ -92,12 +92,10 @@ img {
 
 .blue-highlight {
     color: $blue;
-    font-size: 1.2em;
 }
 
 .orange-highlight {
     color: $orange;
-    font-size: 1.2em;
 }
 
 a.orange-highlight:hover {
@@ -132,11 +130,16 @@ a.orange-highlight:hover {
     border-radius: 2px;
     display: inline-block;
     margin: 1rem;
-    width: 30%;
+    width: 100%;
 }
 
 .card-container {
     padding: 2px 16px;
+}
+.icon {
+    fill: #484a47;
+    padding: 0;
+    margin: 0;
 }
 
 @media screen and (device-width: 360px) and (device-height: 640px) and (-webkit-device-pixel-ratio: 3) {
