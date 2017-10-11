@@ -1,0 +1,51 @@
+.icon {
+    fill: $black;
+    padding: 0;
+    margin: 0;
+}
+
+.blue-highlight {
+    color: $blue;
+}
+
+.orange-highlight {
+    color: $orange;
+}
+
+a.orange-highlight:hover {
+    @extend .orange-highlight;
+    border-top: 2px dotted $orange;
+    border-bottom: 2px dotted $orange;
+    padding-top: .1px;
+    padding-bottom: .1px;
+}
+
+.border {
+    border-top: 8px solid rgba( 0, 159, 183, .07);
+    border-bottom: 4px solid rgba( 0, 159, 183, .07);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.line-break {
+    display: block;
+}
+
+.img-circle {
+    border-radius: 50%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    background: $white;
+    border-radius: 2px;
+    display: inline-block;
+    margin: auto;
+    width: 100%;
+}
+
+.card-container {
+    padding: 2px 16px;
+}

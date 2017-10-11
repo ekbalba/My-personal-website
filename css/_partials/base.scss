@@ -1,0 +1,23 @@
+body {
+    background-color: $white;
+    color: $black;
+    font-family: $assistant;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited,
+a:hover {
+    @extend a;
+}
+
+header  {
+    height: 100vh;
+}
+
+img {
+    max-height: 100%;
+    max-width: 100%;
+}
