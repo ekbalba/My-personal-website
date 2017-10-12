@@ -1,7 +1,22 @@
-.icon {
-    fill: $black;
-    padding: 0;
-    margin: 0;
+@import '../_modules/variables';
+
+.icon-list {
+    list-style-type: none;
+    display: flex;
+}
+
+.icons {
+    font-size: 1em;
+    margin: 2%;
+}
+
+.fa {
+    color: $black;
+}
+
+.icon-text {
+    @extend .fa;
+    @extend p;
 }
 
 .blue-highlight {
@@ -23,6 +38,14 @@ a.orange-highlight:hover {
 .border {
     border-top: 8px solid rgba( 0, 159, 183, .07);
     border-bottom: 4px solid rgba( 0, 159, 183, .07);
+    margin-top: 5%;
+    margin-bottom: 5%;
+    padding-top: 3px;
+    padding-bottom: 4px;
+}
+
+.single-border {
+    border-top: 3px solid rgba( 0, 159, 183, .07);
     margin-top: 5%;
     margin-bottom: 5%;
     padding-top: 3px;

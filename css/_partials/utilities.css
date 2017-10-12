@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Assistant|Secular+One");
+.fa, .icon-text {
+  color: #484a47;
+}
+
+.icon-text {
+  @exte font-family: $secularOne;
+}
+
+.blue-highlight {
+  color: #009fb7;
+}
+
+.orange-highlight, a.orange-highlight:hover {
+  color: #DE6530;
+}
+
+a.orange-highlight:hover {
+  border-top: 2px dotted #DE6530;
+  border-bottom: 2px dotted #DE6530;
+  padding-top: .1px;
+  padding-bottom: .1px;
+}
+
+.border {
+  border-top: 8px solid rgba(0, 159, 183, 0.07);
+  border-bottom: 4px solid rgba(0, 159, 183, 0.07);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+
+.line-break {
+  display: block;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  background: #ffffff;
+  border-radius: 2px;
+  display: inline-block;
+  margin: auto;
+  width: 100%;
+}
+
+.card-container {
+  padding: 2px 16px;
+}
+ 
+
+ /*# sourceMappingURL= utilities.css.map */

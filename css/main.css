@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Assistant|Secular+One");
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Assistant|Secular+One");
 body {
   background-color: #ffffff;
   color: #484a47;
@@ -28,7 +29,7 @@ h6 {
   letter-spacing: .07em;
 }
 
-p, li {
+p, li, .icon-text {
   font-size: 1.3em;
 }
 
@@ -83,10 +84,18 @@ p, li {
   margin: 0 auto 20% auto;
 }
 
-.icon {
-  fill: #484a47;
-  padding: 0;
-  margin: 0;
+.icon-list {
+  list-style-type: none;
+  display: flex;
+}
+
+.icons {
+  font-size: 1em;
+  margin: 2%;
+}
+
+.fa, .icon-text {
+  color: #484a47;
 }
 
 .blue-highlight {
@@ -109,6 +118,14 @@ a.orange-highlight:hover {
 .border {
   border-top: 8px solid rgba(0, 159, 183, 0.07);
   border-bottom: 4px solid rgba(0, 159, 183, 0.07);
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding-top: 3px;
+  padding-bottom: 4px;
+}
+
+.single-border {
+  border-top: 3px solid rgba(0, 159, 183, 0.07);
   margin-top: 5%;
   margin-bottom: 5%;
   padding-top: 3px;
@@ -257,7 +274,7 @@ a.orange-highlight:hover {
     font-size: 2.5em;
     margin-top: 10%;
   }
-  p, li,
+  p, li, .icon-text,
   li {
     font-size: 1em;
   }
