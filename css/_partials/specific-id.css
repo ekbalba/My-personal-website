@@ -2,6 +2,16 @@
   display: block;
   margin: 0 auto 20% auto;
 }
+
+#about {
+  padding-top: 200px;
+  margin-top: -200px;
+}
+
+#my-projects {
+  padding-top: 200px;
+  margin-top: -200px;
+}
  
 
  /*# sourceMappingURL= specific-id.css.map */

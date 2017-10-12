@@ -58,6 +58,12 @@ a.orange-highlight:hover {
     border-radius: 50%;
 }
 
+.projects{
+    list-style-type: none;
+    margin-top: 5%;
+    margin-bottom: 5%;
+}
+
 .card {
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     background: $white;
@@ -71,4 +77,9 @@ a.orange-highlight:hover {
     background-color: rgba( 0, 159, 183, .07);
     text-align: center;
     padding: 10px 10px;
+}
+
+.copyright {
+    text-align: center;
+    font-size: 1em;
 }

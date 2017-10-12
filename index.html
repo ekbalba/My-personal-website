@@ -15,8 +15,7 @@
 
 
     <script src="https://use.fontawesome.com/9b1d7b40ee.js"></script>
-
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/evil-icons@1.9.0/assets/evil-icons.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <link href="css/normalize.css" type="text/css" rel="stylesheet" />
     <link href="css/skeleton.css" type="text/css" rel="stylesheet" />
     <link href="css/main.css" type="text/css" rel="stylesheet" />
@@ -25,7 +24,7 @@
 
 <body>
     <header>
-        <nav class="row nav-bar fade-in-fwd">
+        <nav class="row nav-bar fade-in-fwd topnav" id="myTopnav">
             <div class="brand u-pull-left">
                 <a href="index"></a>
             </div>
@@ -35,16 +34,16 @@
                         <a href="#about">ABOUT</a>
                     </li>
                     <li class="u-pull-left">
-                        <a href="resume.html">RESUME</a>
+                        <a href="ekbalba-resume.pdf">RESUME</a>
                     </li>
                     <li class="u-pull-left">
-                        <a href="contact.html">CONTACT</a>
+                        <a href="#my-projects">PROJECTS</a>
                     </li>
                 </ul>
             </div>
         </nav>
         <div class="container fade-in-fwd">
-            <section class="row offset-by-two eight columns header-content jello-horizontal">
+            <section class="row offset-by-two eight columns header-content">
                 <h2>
                     <span class="line-break">Hello,</span>
                     <span class="line-break">my name is Errol,</span>
@@ -145,24 +144,80 @@
             </ul>
         </section>
         <div class="border twelve columns"></div>
-        <section class="row twelve columns">
-            <div class="card">
-                <!-- <img src="../../images/restaurant.jpg" alt=""> -->
-                <div class="card-container">
-                    <h4>
-                        Coming Soon!
-                    </h4>
-                    <p>
-                        Still in development.
-                    </p>
-                </div>
-            </div>
+        <section id="my-projects" class="row twelve columns">
+            <h3>
+                My Projects:
+            </h3>
+            <p>
+                Sorry, right now, I am still developing my projects. In the meantime, you can still check my
+                <a href="" class="orange-highlight">GitHub</a>.
+            </p>
+            <ul class="project-list">
+                <li class="projects">
+                    <div class="card">
+                        <!-- <img src="../../images/restaurant.jpg" alt=""> -->
+                        <div class="card-container">
+                            <h4>
+                                Coming Soon!
+                            </h4>
+                            <p>
+                                Still in development.
+                            </p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+
         </section>
-        <div class="border twelve columns"></div>
+        <div class="offset-by-two eight columns single-border"></div>
+        <div class="row offset-by-two eight columns">
+            <ul class="icon-list ">
+                <li class="icons">
+                    <a href="#">
+                        <i class="fa fa-envelope-o fa-2x" aria-hidden="true"></i>
+                        &nbsp;
+                        <span class="icon-text">Email</span>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#">
+                        <i class="fa fa-linkedin fa-2x" aria-hidden="true"></i>
+                        &nbsp;
+                        <span class="icon-text">LinkedIn</span>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#">
+                        <i class="fa fa-github fa-2x" aria-hidden="true"></i>
+                        &nbsp;
+                        <span class="icon-text">GitHub</span>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#">
+                        <i class="fa fa-skype fa-2x" aria-hidden="true"></i>
+                        &nbsp;
+                        <span class="icon-text">Skype</span>
+                    </a>
+                </li>
+                <li class="icons">
+                    <a href="#">
+                        <i class="fa fa-facebook fa-2x" aria-hidden="true"></i>
+                        &nbsp;
+                        <span class="icon-text">Facebook</span>
+                    </a>
+                </li>
+            </ul>
+            <p class="copyright">
+                Copyright Errol Alba 2017
+            </p>
+        </div>
     </div>
     <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
+    <script src="main.js"></script>
+    
 </body>
 
 </html>
