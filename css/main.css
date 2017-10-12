@@ -1,5 +1,4 @@
 @import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Assistant|Secular+One");
-@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,500|Assistant|Secular+One");
 body {
   background-color: #ffffff;
   color: #484a47;
@@ -150,7 +149,9 @@ a.orange-highlight:hover {
 }
 
 .card-container {
-  padding: 2px 16px;
+  background-color: rgba(0, 159, 183, 0.07);
+  text-align: center;
+  padding: 10px 10px;
 }
 
 .fade-in-fwd {
