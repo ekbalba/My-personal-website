@@ -84,8 +84,13 @@ p, li, .icon-text {
 }
 
 #about {
-  padding-top: 200px;
-  margin-top: -200px;
+  padding-top: 120px;
+  margin-top: -120px;
+}
+
+#my-projects {
+  padding-top: 120px;
+  margin-top: -120px;
 }
 
 .icon-list {
@@ -300,7 +305,12 @@ a.orange-highlight:hover {
     padding-bottom: 0;
   }
   #about {
-    padding-top: 5vh;
+    padding-top: 4vh;
+    margin-top: -4vh;
+  }
+  #my-projects {
+    padding-top: 4vh;
+    margin-top: -4vh;
   }
 }
  
